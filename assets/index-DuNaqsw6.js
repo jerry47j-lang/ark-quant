@@ -73,7 +73,7 @@
  <div class="band">
   <div class="band-media"><img src="${y("/assets/v42/quant-code.jpg")}" alt="" width="1280" height="720" loading="lazy"><video data-film="loop" muted playsinline loop preload="none" poster="${y("/assets/v42/quant-code.jpg")}" aria-label="量化運算概念影片"><source src="${y("/assets/v42/quant-code.mp4")}" type="video/mp4"></video><div class="band-shade" aria-hidden="true"></div></div>
   <div class="band-copy wrap">
-   <h2 id="quant-title" class="band-title">你的量化投資，<wbr>今天就能開始。</h2>
+   <h2 id="quant-title" class="band-title">你的量化投資，<br>在今天就能開始。</h2>
   </div>
  </div>
  <div id="statement-wall" class="wrap wall-head">
