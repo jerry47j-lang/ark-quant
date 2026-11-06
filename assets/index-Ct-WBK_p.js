@@ -283,7 +283,7 @@
     </div>
     </div>
     <div class="service-hours"><div><h3>基地服務時間</h3><p>週一至週五 <span>15:00–21:00</span></p></div><div><p>安裝、應用、提示詞大全。</p><p>至股東活動中心確認主題場次及報名。</p></div></div>
-  </section>`,Z=e=>[...xe,...Ae].find(t=>t.id===e),pe=["自動化複盤","AI 量化交易","雪鴞 API 存取","持續提供的功能更新"],kt=[["vip-room","一對一服務，使用方式依服務安排確認。"],["vip-line","由方舟運算團隊提供一對一專線協助。"],["team-line","透過 LINE 官方帳號，由核心團隊優先處理。"],["installation","方舟啟航申裝服務，享優先安排。"],["agent","AI Agent 建置與相關應用，提供優先協助。"]],Le=["app-review","app-trading","integration"],xt={"app-review":"自動化複盤","app-trading":"AI 量化交易",integration:"雪鴞 API 存取"},ve=F.filter(e=>!Le.includes(e)),J='<span class="tick" aria-hidden="true">✓</span>',N=`<td class="is-yes">${J}<span class="sr-only">包含</span></td>`,ue='<td class="is-no"><span aria-hidden="true">—</span><span class="sr-only">不包含</span></td>';function he(e,t,a,s,n,l){return`<article class="plan" data-plan="${e}" data-reveal aria-label="${a}">
+  </section>`,Z=e=>[...xe,...Ae].find(t=>t.id===e),pe=["自動化複盤","AI 量化交易","雪鴞 API 存取","持續提供的功能更新"],kt=[["vip-room","一對一服務，使用方式依服務安排確認。"],["vip-line","由方舟運算團隊提供一對一專線協助。"],["agent","AI Agent 建置與相關應用，提供優先協助。"]],Le=["app-review","app-trading","integration"],xt={"app-review":"自動化複盤","app-trading":"AI 量化交易",integration:"雪鴞 API 存取"},ve=F.filter(e=>!Le.includes(e)),J='<span class="tick" aria-hidden="true">✓</span>',N=`<td class="is-yes">${J}<span class="sr-only">包含</span></td>`,ue='<td class="is-no"><span aria-hidden="true">—</span><span class="sr-only">不包含</span></td>';function he(e,t,a,s,n,l){return`<article class="plan" data-plan="${e}" data-reveal aria-label="${a}">
   <p class="plan-step">${t}</p>
   ${e==="annual"?'<span class="plan-badge" data-annual-value hidden>最划算</span>':""}
   <span class="plan-name">${a}</span><h3>${s}</h3><p class="plan-audience">${n}</p>
@@ -333,7 +333,6 @@
  <p class="wrap plans-assure" data-reveal>付款開通後享 7 日確認期，適用條件見<a href="#refund-policy-title">7 日確認期與退費原則</a>。</p>
  <div class="wrap">${Lt}</div>
  <div class="wrap rights">
-  <p class="rights-equipment">個人黑卡方案不包含 Mac 電腦。</p>
   <details id="black-card-rights"><summary><span>查看完整 ${F.length} 項權益</span><i aria-hidden="true">＋</i></summary>
    <ol>${F.map(e=>{const t=Z(e);return`<li data-benefit="${t.id}"><h4>${t.title}</h4><p>${t.description}</p></li>`}).join("")}</ol>
   </details>
