@@ -163,9 +163,9 @@
    <figure class="live-phone" data-reveal>
     <figcaption class="live-group">${ut}方舟官方 LINE 社群</figcaption>
     <div class="live-device">
-     <div class="phone"><img src="${w("/assets/community/livetalk.webp")}" alt="方舟 Live Talk 聽眾畫面，所有聽眾 1009" width="845" height="1700" loading="lazy"></div>
+     <div class="phone"><img src="${w("/assets/community/livetalk.webp")}" alt="方舟 Live Talk 畫面，1009 人同時在線收聽" width="845" height="1700" loading="lazy"></div>
      <span class="live-focus" aria-hidden="true"></span>
-     <p class="live-callout"><span class="live-dot" aria-hidden="true"></span><small>所有聽眾</small><strong data-count="1009">1,009</strong></p>
+     <p class="live-callout"><span class="live-dot" aria-hidden="true"></span><small>同時在線收聽</small><span class="live-num"><strong data-count="1009">1,009</strong><span>人</span></span></p>
     </div>
    </figure>
    <div class="live-info" data-reveal>
