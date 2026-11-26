@@ -224,18 +224,18 @@
       <p><b>會員服務依購買當日所選方案提供。</b> 網站內容更新不會自動變更既有訂單的服務內容。</p>
       <p><b>既有用戶</b> 可延續既有方案金額與會員點數；升級新方案需依適用規則補差額。</p>
       <p>金額以新臺幣計。自動續訂與一次付款依選定方式辦理；完整條款及服務範圍請以正式訂閱入口為準。</p>
-      <p>月方案與年方案均含雪鴞 API 存取。</p>
-      <div class="refund-policy" aria-labelledby="refund-policy-title">
-        <h3 id="refund-policy-title">7 日確認期與退費原則</h3>
-        <ol>
-          <li>付款完成並開通服務後，本期 APP 權限即開始提供。</li>
-          <li>自開通日起 7 日內，若未大量使用 APP 服務，且未使用會員點數兌換課程／活動，可申請取消本期方案並退費。</li>
-          <li>超過 7 日後，本期方案視為正式生效，權限可使用至到期日。</li>
-        </ol>
-      </div>
+      <p>月方案與年方案均含方舟 API 存取。</p>
+    </div>
+    <div class="refund-policy" aria-labelledby="refund-policy-title">
+      <h3 id="refund-policy-title">7 日確認期與退費原則</h3>
+      <ol>
+        <li>付款完成並開通服務後，本期 APP 權限即開始提供。</li>
+        <li>自開通日起 7 日內，若未大量使用 APP 服務，且未使用會員點數兌換課程／活動，可申請取消本期方案並退費。</li>
+        <li>超過 7 日後，本期方案視為正式生效，權限可使用至到期日。</li>
+      </ol>
     </div>
     </div>
-  </section>`,ye=["自動化複盤","AI 量化交易","雪鴞 API 存取","持續提供的功能更新"],bt='<span class="tick" aria-hidden="true">✓</span>';function $e(e,t,a,i,p,d){return`<article class="plan" data-plan="${e}" data-reveal aria-label="${a}">
+  </section>`,ye=["自動化複盤","AI 量化交易","方舟 API 存取","持續提供的功能更新"],bt='<span class="tick" aria-hidden="true">✓</span>';function $e(e,t,a,i,p,d){return`<article class="plan" data-plan="${e}" data-reveal aria-label="${a}">
   <p class="plan-step">${t}</p>
   ${e==="annual"?'<span class="plan-badge" data-annual-value hidden>最划算</span>':""}
   <span class="plan-name">${a}</span><h3>${i}</h3><p class="plan-audience">${p}</p>
